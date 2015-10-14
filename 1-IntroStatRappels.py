@@ -51,6 +51,11 @@ def my_saving_display(fig, dirname, filename, imageformat):
     dirname + filename + imageformat
     image_name = dirname + filename + imageformat
     fig.savefig(image_name)
+    
+def my_saving_display(fig, dirname, filename, imageformat):
+    dirname + filename + imageformat
+    image_name = dirname + filename + imageformat
+    fig.savefig(image_name)
 
 
 ###############################################################################
